@@ -19,6 +19,7 @@
     border-style: solid;
     border-color: #1a1a1a;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .top-three-projects {
@@ -32,10 +33,10 @@
     border-width: 2.5px;
     border-style: solid;
     border-color: #1a1a1a;
-    width:23rem;
+    width: 23rem;
 }
 
-.info{
+.info {
     color: #1a1a1a;
     margin-left: 2rem;
 }
