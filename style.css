@@ -26,3 +26,15 @@
     justify-content: space-between;
     margin-top: 2.5rem;
 }
+
+.contact-info {
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: #1a1a1a;
+    width:23rem;
+}
+
+.info{
+    color: #1a1a1a;
+    margin-left: 2rem;
+}
