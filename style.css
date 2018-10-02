@@ -13,9 +13,9 @@
     margin-bottom: 0rem;
 }
 
-.list-item {
-    text-decoration: none;
-    list-style: none;
+.portfolio-item {
+    /* text-decoration: none; */
+    /* list-style: none; */
     border-width: 2px;
     border-style: solid;
     border-color: #1a1a1a;
@@ -33,7 +33,7 @@ a:hover {
     text-decoration: none;
     color: blue;
 }
-.list-item h5:hover {
+.portfolio-item h5:hover {
     color: blue;
 }
 .top-three-projects {
@@ -46,7 +46,7 @@ a:hover {
     border-style: solid;
     border-color: #1a1a1a;
     border-radius: 5px;
-    width: 23rem;
+    width: 24rem;
     padding: 5px;
     margin-bottom: 0.5rem;
 }
