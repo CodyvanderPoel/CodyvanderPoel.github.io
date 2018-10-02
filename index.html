@@ -5,26 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Portfolio!</title>
+    <title>Cody van der Poel Portfolio!</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <!-- This is a free theme provided by Bootswatch.com. This is the "Lux" theme.-->
+    <!-- custom bootstrap theme -->
     <link rel="stylesheet" href="bootswatch.css">
+    <!-- fontawesome for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- my custom css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container-fluid collapse-xsm">
+    <!-- <div class="container-fluid collapse-xsm"> -->
+    <div class="container">
         <div class="d-flex justify-content-center introduction">
             <p class="text-white text">My name is Cody van der Poel!
                 </>
         </div>
-        <div class="bio">
-            <p>I am from Cascilla, Mississippi, and I graduated from Charleston High School in May of 2018. I am now a student
-                enrolled in Base Camp Coding Academy
-                <a href="https://basecampcodingacademy.org/" target="__blank__">(BCCA)</a>. Here at Base Camp, our instructors are preparing us to be an Entry-Level Web-Developer. We began
-                class June 4, 2018, and we do not graduate till early May of 2019.</p>
+        <div class="row">
+            <div class="bio col-sm-12">
+                <p>I am from Cascilla, Mississippi, and I graduated from Charleston High School in May of 2018. I am now a student
+                    enrolled in Base Camp Coding Academy
+                    <a href="https://basecampcodingacademy.org/" target="__blank__">(BCCA)</a>. Here at Base Camp, our instructors are preparing us to be an Entry-Level Web-Developer. We
+                    began class June 4, 2018, and we do not graduate till early May of 2019.</p>
+            </div>
         </div>
-        <div class="top-three">
-            <ul class="top-three-projects collapse-xsm d-flex justify-content-around">
+        <!-- <div class="top-three rows">
+            <ul class="top-three-projects col-sm d-flex justify-content-around">
                 <li class="list-item">
                     <a href="https://github.com/CodyvanderPoel/home_gladiator/tree/master/whole-projects" target="__blank__">
                         <h5>Gladiators-OOP</h5>
@@ -48,18 +59,60 @@
                     </a>
                 </li>
             </ul>
+        </div> -->
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-3 portfolio-item">
+                <a href="https://github.com/CodyvanderPoel/home_gladiator/tree/master/whole-projects" target="__blank__">
+                    <h5>
+                        <i class="fab fa-github"></i> Gladiators-OOP</h5>
+                    <p class="item-info">This was our second time working with Gladiators. This time you can see a much cleaner build, since we
+                        used classes and took an Object-Oriented Approach.</p>
+                </a>
+            </div>
+            <div class="col-lg-3 portfolio-item">
+                <a href="https://github.com/CodyvanderPoel/gladiator" target="__blank__">
+                    <h5>
+                        <i class="fab fa-github"></i> Gladiators-Dictionaries</h5>
+                    <p class="item-info">This was our first time working on Gladiators. At this time we had learned about dictionaries, and I
+                        found that this was a good learning experience to help me learn about dictionaries.</p>
+                </a>
+            </div>
+            <div class="col-lg-3 portfolio-item">
+                <a href="https://github.com/CodyvanderPoel/rental_store_CodyvanderPoel" target="__blank__">
+                    <h5>
+                        <i class="fab fa-github"></i> My Rental Agency</h5>
+                    <p class="item-info">This was our Python 3 final project. Everything found in the repository was built from the ground up,
+                        by yours truly. The work done on this was easy for the most part and on the other it was slow and
+                        tasking
+                    </p>
+                </a>
+            </div>
         </div>
         <div class="contact-info collapse-xsm">
             <h5>My Contact Information</h5>
             <p>Gitub:
                 <p class="info">
-                    <a href="https://github.com/CodyvanderPoel" target="__blank__">CodyvanderPoel</a>
+                    <a href="https://github.com/CodyvanderPoel" target="_blank">
+                        <i class="fab fa-github"></i> CodyvanderPoel</a>
                 </p>
             </p>
             <p>Email:
-                <p class="info">cvanderpoel@basecampcodingacademy.org</p>
+                <p class="info">
+                    <a href="mailto:cvanderpoel@basecampcodingacademy.org" target="_blank">
+                        <i class="far fa-envelope"></i> cvanderpoel@basecampcodingacademy.org</p>
+                </a>
             </p>
         </div>
+        <!-- bootstrap required js -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <!-- fontawesome js         -->
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
