@@ -1,6 +1,6 @@
 .introduction {
     background-color: #1a1a1a;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
 }
 
 .text {
@@ -21,7 +21,7 @@
     border-style: solid;
     border-color: #1a1a1a;
     border-radius: 5px;
-    padding: .75rem;
+    padding: 0.75rem;
     width: 15rem;
     margin-top: 2.5rem;
 }
@@ -55,4 +55,3 @@ a:hover {
     color: #1a1a1a;
     margin-left: 2rem;
 }
-
