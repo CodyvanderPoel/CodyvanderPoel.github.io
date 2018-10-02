@@ -10,6 +10,7 @@
     color: #1a1a1a;
     font-size: 1.5rem;
     margin-top: 5rem;
+    margin-bottom: 0rem;
 }
 
 .list-item {
@@ -20,11 +21,22 @@
     border-color: #1a1a1a;
     border-radius: 5px;
     padding: 5px;
+    width: 15rem;
+    margin-top: 2.5rem;
 }
 
+.item-info {
+    color: #1a1a1a;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+.list-item h5:hover {
+    color: blue;
+}
 .top-three-projects {
-    display: flex;
-    justify-content: space-between;
     margin-top: 2.5rem;
 }
 
@@ -35,6 +47,7 @@
     border-color: #1a1a1a;
     width: 23rem;
     padding: 5px;
+    margin-bottom: .5rem;
 }
 
 .info {
