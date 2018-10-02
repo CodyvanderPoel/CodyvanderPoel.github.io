@@ -54,3 +54,7 @@ a:hover {
     color: #1a1a1a;
     margin-left: 2rem;
 }
+.background {
+    background-image: url("images/iswanto-arif-590847-unsplash.jpg");
+    background-repeat: no-repeat;
+}
