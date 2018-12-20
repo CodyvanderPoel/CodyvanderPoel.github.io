@@ -55,3 +55,7 @@ a:hover {
     color: #1a1a1a;
     margin-left: 2rem;
 }
+
+.contact-link svg:hover {
+    color: black;
+}
